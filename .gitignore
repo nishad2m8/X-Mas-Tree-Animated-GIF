@@ -1,0 +1,25 @@
+# Ignore VS Code specific files
+.vscode/
+.history/
+
+# Ignore PlatformIO specific files
+.pio/
+build/
+
+# Ignore generated files
+*.elf
+*.map
+*.bin
+*.hex
+*.csv
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore Python virtual environment
+.venv/
